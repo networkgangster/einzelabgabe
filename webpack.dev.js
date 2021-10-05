@@ -27,7 +27,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'netlify test',
+      title: 'Home',
       template: path.resolve(__dirname, './src/index.html'),
     }),
   ],

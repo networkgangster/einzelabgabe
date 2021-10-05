@@ -27,7 +27,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Basic Webpack Setup, DEPLOYMENT TEST',
+      title: 'deployment test',
       template: path.resolve(__dirname, './src/index.html'),
     }),
   ],

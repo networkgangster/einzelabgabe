@@ -1,0 +1,16 @@
+{
+    "parser": "babel-eslint",
+    "settings": {
+        "import/resolver":{
+            "node":{
+                "extensions": [".css"]
+            }
+        }
+    },
+    "extends": "airbnb",
+    "rules": {
+      "no-console": "off", // to disable warnings when logging to console
+      "linebreak-style": 0
+    }
+  }
+  

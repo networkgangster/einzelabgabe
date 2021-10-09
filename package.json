@@ -16,11 +16,14 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
+    "http-server": "^13.0.2",
     "javascript-obfuscator": "^2.19.0",
+    "node-fetch": "^3.0.0",
     "node-sass": "^6.0.1",
     "sass": "^1.41.0",
     "sass-loader": "^12.1.0",
-    "style-loader": "^3.2.1"
+    "style-loader": "^3.2.1",
+    "xhr2": "^0.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",

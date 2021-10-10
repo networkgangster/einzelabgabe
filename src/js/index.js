@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
@@ -7,6 +8,7 @@
 const XMLHttpRequest = require('xhr2');
 
 const btn = document.getElementById('btn');
+const fav = document.getElementsByClassName('fav');
 
 function buildTable(data) {
   const table = document.getElementById('myTable');
@@ -14,8 +16,9 @@ function buildTable(data) {
   for (let i = 0; i < data.length - 2; i++) {
     const row = `<tr>
                         <td>${data[i]}</td>
-                        <td>${data[i + 1]}</td>
+                        <td class="fct">${data[i + 1]}</td>
                         <td>${data[i + 2]}</td>
+                        <td><button class="fav" type="button">Favorit</button></td>
                   </tr>`;
     table.innerHTML += row;
   }
@@ -43,4 +46,20 @@ function chucknorris() {
   xhr.send(send);
 }
 
+function removeFromWishlist(button) {
+  button.closest('li').remove();
+}
+
+function addtoWishlist(button) {
+  let parentItem = button.closest('tr');
+  console.log(parentItem);
+  let clonedItem = parentListItem.cloneNode(true);
+
+  let batn = clonedItem.getElementsByTagName('button')[0];
+  batn.textContent = 'x';
+  batn.addEventListener('click', function () { removeFromWishlist(this); });
+  document.getElementById('wishlist').append(clonedItem);
+}
+
 btn.addEventListener('click', chucknorris);
+fav.addEventListener('click', addtoWishlist(this));

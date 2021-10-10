@@ -1,44 +1,88 @@
-/* eslint-disable no-return-assign */
-/* eslint-disable max-len */
-/* eslint-disable import/no-dynamic-require */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-param-reassign */
-/* eslint-disable no-sequences */
-/* eslint-disable no-func-assign */
 /* eslint-disable no-constant-condition */
 /* eslint-disable func-names */
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-use-before-define */
+/* eslint-disable max-len */
+/* eslint-disable no-sequences */
+/* eslint-disable no-func-assign */
+/* eslint-disable no-unused-vars */
+/* eslint-disable import/no-dynamic-require */
 /* eslint-disable radix */
 /* eslint-disable no-mixed-operators */
 /* eslint-disable no-underscore-dangle */
-/* eslint-disable no-use-before-define */
-const _0x45ba9c = _0x2794;
-(function (_0x2a553a, _0x4d7382) {
-  const _0x5c29c1 = _0x2794; const
-    _0xa13093 = _0x2a553a();
+/* eslint-disable no-return-assign */
+const _0x2fa82c = _0x18fc;
+function _0x4c44() {
+  const _0x477d7d = [
+    '1ZfxePF',
+    'clean-webpack-plugin',
+    '1522728VunEOo',
+    'style-loader',
+    '497FZQPXR',
+    'exports',
+    'development',
+    'babel-loader',
+    './dist',
+    '46660YAWUhd',
+    './src/index.html',
+    'path',
+    '24416JjcdqF',
+    'sass-loader',
+    '2234507Jnbtjl',
+    '30ayyfIX',
+    'css-loader',
+    '4qzHtjj',
+    './src/js/index.js',
+    'html-webpack-plugin',
+    '.js',
+    'resolve',
+    '224698KxXOFO',
+    '150KXtmOI',
+    '15972MQvvmT',
+    'bundle.js',
+    '322578XCZdxr',
+    'eslint-loader',
+  ];
+  _0x4c44 = function () {
+    return _0x477d7d;
+  };
+  return _0x4c44();
+}
+function _0x18fc(_0x4b9f9c, _0x5b803e) {
+  const _0x4c44f5 = _0x4c44();
+  return _0x18fc = function (_0x18fc6f, _0x1b5343) {
+    _0x18fc6f -= 0x135;
+    const _0x4c6f53 = _0x4c44f5[_0x18fc6f];
+    return _0x4c6f53;
+  }, _0x18fc(_0x4b9f9c, _0x5b803e);
+}
+(function (_0xb04baa, _0x4b6c30) {
+  const _0x5df756 = _0x18fc; const
+    _0x243eda = _0xb04baa();
   while ([]) {
     try {
-      const _0x533cf4 = parseInt(_0x5c29c1(0xd1)) / 0x1 * (-parseInt(_0x5c29c1(0xe1)) / 0x2) + -parseInt(_0x5c29c1(0xe4)) / 0x3 * (-parseInt(_0x5c29c1(0xd9)) / 0x4) + -parseInt(_0x5c29c1(0xd2)) / 0x5 + parseInt(_0x5c29c1(0xe5)) / 0x6 + parseInt(_0x5c29c1(0xd3)) / 0x7 + -parseInt(_0x5c29c1(0xe2)) / 0x8 + -parseInt(_0x5c29c1(0xd0)) / 0x9 * (parseInt(_0x5c29c1(0xd6)) / 0xa);
-      if (_0x533cf4 === _0x4d7382) { break; } else { _0xa13093.push(_0xa13093.shift()); }
-    } catch (_0x42eb1c) {
-      _0xa13093.push(_0xa13093.shift());
+      const _0xbcea9b = -parseInt(_0x5df756(0x14a)) / 0x1 * (-parseInt(_0x5df756(0x144)) / 0x2) + -parseInt(_0x5df756(0x146)) / 0x3 * (-parseInt(_0x5df756(0x13f)) / 0x4) + parseInt(_0x5df756(0x137)) / 0x5 * (-parseInt(_0x5df756(0x145)) / 0x6) + -parseInt(_0x5df756(0x14e)) / 0x7 * (-parseInt(_0x5df756(0x13a)) / 0x8) + parseInt(_0x5df756(0x148)) / 0x9 * (parseInt(_0x5df756(0x13d)) / 0xa) + -parseInt(_0x5df756(0x13c)) / 0xb + parseInt(_0x5df756(0x14c)) / 0xc;
+      if (_0xbcea9b === _0x4b6c30) { break; } else { _0x243eda.push(_0x243eda.shift()); }
+    } catch (_0x4689e7) {
+      _0x243eda.push(_0x243eda.shift());
     }
   }
-}(_0x3ecd, 0x5e46d));
-const path = require(_0x45ba9c(0xdf)); const HtmlWebpackPlugin = require(_0x45ba9c(0xdc)); const
-  { CleanWebpackPlugin } = require(_0x45ba9c(0xde));
-module.exports = {
-  mode: _0x45ba9c(0xd7),
-  entry: path[_0x45ba9c(0xdb)](__dirname, _0x45ba9c(0xdd)),
+}(_0x4c44, 0x204fc));
+const path = require(_0x2fa82c(0x139)); const HtmlWebpackPlugin = require(_0x2fa82c(0x141)); const
+  { CleanWebpackPlugin } = require(_0x2fa82c(0x14b));
+module[_0x2fa82c(0x14f)] = {
+  mode: _0x2fa82c(0x150),
+  entry: path.resolve(__dirname, _0x2fa82c(0x140)),
   output: {
-    path: path[_0x45ba9c(0xdb)](__dirname, './dist'),
-    filename: 'bundle.js',
+    path: path[_0x2fa82c(0x143)](__dirname, './dist'),
+    filename: _0x2fa82c(0x147),
   },
-  devServer: { static: path[_0x45ba9c(0xdb)](__dirname, _0x45ba9c(0xd5)) },
+  devServer: { static: path[_0x2fa82c(0x143)](__dirname, _0x2fa82c(0x136)) },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Home',
-      template: path[_0x45ba9c(0xdb)](__dirname, _0x45ba9c(0xd8)),
+      template: path[_0x2fa82c(0x143)](__dirname, _0x2fa82c(0x138)),
     }),
   ],
   module: {
@@ -47,16 +91,16 @@ module.exports = {
         test: /\.(js)$/,
         exclude: /node_modules/,
         use: [
-          _0x45ba9c(0xe3),
-          'eslint-loader',
+          _0x2fa82c(0x135),
+          _0x2fa82c(0x149),
         ],
       },
       {
         test: /\.(scss|css)$/,
         use: [
-          'style-loader',
-          _0x45ba9c(0xe0),
-          _0x45ba9c(0xda),
+          _0x2fa82c(0x14d),
+          _0x2fa82c(0x13e),
+          _0x2fa82c(0x13b),
         ],
       },
     ],
@@ -64,45 +108,7 @@ module.exports = {
   resolve: {
     extensions: [
       '*',
-      _0x45ba9c(0xd4),
+      _0x2fa82c(0x142),
     ],
   },
 };
-function _0x2794(_0x173a55, _0x5dc52d) {
-  const _0x3ecd2f = _0x3ecd();
-  return _0x2794 = function (_0x279418, _0xe0d021) {
-    _0x279418 -= 0xd0;
-    const _0x5e6c69 = _0x3ecd2f[_0x279418];
-    return _0x5e6c69;
-  }, _0x2794(_0x173a55, _0x5dc52d);
-}
-function _0x3ecd() {
-  const _0x48650c = [
-    '41260OTqksa',
-    'production',
-    './src/index.html',
-    '172jBvPwK',
-    'sass-loader',
-    'resolve',
-    'html-webpack-plugin',
-    './src/index.js',
-    'clean-webpack-plugin',
-    'path',
-    'css-loader',
-    '375868NuPejA',
-    '2660288SkzEdc',
-    'babel-loader',
-    '28293tAnYlv',
-    '2523984dtAVON',
-    '369XdokdN',
-    '2TiOvpi',
-    '811825RfjNdM',
-    '4199265CqePLc',
-    '.js',
-    './dist',
-  ];
-  _0x3ecd = function () {
-    return _0x48650c;
-  };
-  return _0x3ecd();
-}

@@ -32,13 +32,13 @@ module.exports = {
       filename: 'index.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Home',
+      title: 'about',
       template: path.resolve(__dirname, './src/about.html'),
       filename: 'about.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Home',
-      template: path.resolve(__dirname, './src/about.html'),
+      title: 'contact',
+      template: path.resolve(__dirname, './src/contact.html'),
       filename: 'contact.html',
     }),
   ],

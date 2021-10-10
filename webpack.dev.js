@@ -29,6 +29,17 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Home',
       template: path.resolve(__dirname, './src/index.html'),
+      filename: 'index.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Home',
+      template: path.resolve(__dirname, './src/about.html'),
+      filename: 'about.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Home',
+      template: path.resolve(__dirname, './src/about.html'),
+      filename: 'contact.html',
     }),
   ],
   // 5
